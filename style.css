@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-.header {
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
@@ -13,37 +17,8 @@
     justify-content: space-between;
 }
 
-.header_logo {
+.huddle {
     width: 150px;
-}
-
-.header_btn {
-    text-decoration: none;
-    color: #e98bbf;
-    border: 1px #e98bbf solid;
-    border-radius: 15px;
-    padding-top: 4px;
-    width: 85px;
-    height: 25px;
-    font-size: 11px;
-    text-align: center;
-}
-
-.community {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.community_title {
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.community_subtitle {
-    text-align: center;
-    margin-left: 260px;
-    margin-right: 260px;
     margin-bottom: 20px;
 }
 
@@ -56,26 +31,52 @@
     height: 50px;
     border-radius: 30px;
     text-align: center;
-    padding-top: 12px;
-    margin-bottom: 75px;
+    padding-top: 15px;
+}
+
+.header_btn {
+    color: #e98bbf;
+    padding-top: 4px;
+    width: 85px;
+    height: 25px;
+    font-size: 11px;
+    background-color: white;
+}
+
+.community {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+    background-image: url("images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.community_title {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.community_subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 
 .community_illustration {
     width: 650px;
     height: 450px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    margin-top: 75px;
 }
 
 .mockups {
     display: flex;
     justify-content: space-between;
-    justify-content: center;
-    margin-left: 180px;
-}
-
-ul {
-    list-style: none;
-    margin-right: 220px;
+    width: 500px;
 }
 
 .icon {
@@ -90,4 +91,144 @@ ul {
 
 .mockups_subtitle {
     color: #a8adb1;
+}
+
+.together {
+    display: flex;
+    align-items: center;
+    background-color: #f6fbff;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.together_text {
+    margin-left: 100px;
+    font-size: 11px;
+}
+
+.title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.illustration {
+    height: 280px;
+    width: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.flowing {
+    display: flex;
+    align-items: center;
+    background-image: url("images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 220px;
+    margin-bottom: 65px;
+    margin-right: 80px;
+}
+
+.flowing_text {
+    font-size: 11px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    background-image: url("images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: #f6fbff;
+}
+
+.users_text {
+    margin-left: 100px;
+    font-size: 11px;
+}
+
+.build {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    background-image: url("images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    margin-bottom: 280px;
+}
+
+.build_title {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #00262f;
+    color: #abc0c5;
+    padding-bottom: 60px;
+}
+
+.footer_phonemail {
+    display: flex;
+}
+
+.logo_text {
+    margin-left: 15px;
+}
+
+.footer_title {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer_subtitle {
+    font-size: 11px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 75px;
+    margin-bottom: 50px;
+}
+
+.footer_left,
+.footer_right {
+    margin-left: 75px;
+    width: 50%;
+}
+
+.email {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.footer_btn {
+    color: white;
+    border: 1px #e98bbf solid;
+    background-color: #fd53c0;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer_logo {
+    margin-left: 75px;
+}
+
+.foot_logo {
+    margin-right: 15px;
 }

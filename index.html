@@ -4,6 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
         <script
             src="https://kit.fontawesome.com/07627d480d.js"
             crossorigin="anonymous"
@@ -13,11 +16,10 @@
     </head>
     <body>
         <header>
-            <div class="header">
-                <img src="images/logo.svg" alt="logo" class="header_logo" />
-                <a href="#" class="header_btn">Try It Free</a>
-            </div>
+                <img src="images/logo.svg" alt="logo" class="header_logo huddle" />
+                <a href="#" class="btn header_btn">Try It Free</a>
         </header>
+        <section>
         <div class="community">
             <h1 class="community_title">
                 Build The Community Your Fans Will Love
@@ -33,68 +35,76 @@
                 alt="community illustration"
                 class="community_illustration"
             />
-        </div>
-        <div class="mockups">
-            <ul>
-                <li>
+            <div class="mockups">
+            <div class="mockups1">
                     <img
                         src="images/icon-communities.svg"
                         alt="icon communities"
                         class="icon_mockups icon"
                     />
-                </li>
-                <li class="mockups_title">1.4k+</li>
-                <li class="mockups_subtitle">Communities Formed</li>
-            </ul>
-            <ul>
-                <li>
+                <p class="mockups_title">1.4k+</p>
+                <p class="mockups_subtitle">Communities Formed</p>
+            </div>
+            <div class="mockups2">
                 <img
                     src="images/icon-messages.svg"
                     alt="icon msg"
                     class="icon icon_msg"
-                /> </li>
-                <li class="mockups_title">2.7m+</li>
-                <li class="mockups_subtitle">Messages Sent</li>
-           </ul>
+                />
+                <p class="mockups_title">2.7m+</p>
+                <p class="mockups_subtitle">Messages Sent</p>
         </div>
         </div>
+        </div>
+        </div>
+        </section>
+        <section>
         <div class="together">
-            <h2 class="together_title">Grow Together</h2>
-            <p class="together_subtitle">
-                Generate meaningful discussions with your audience and build a
-                strong, loyal community. Think of the insightful conversations
-                you miss out on with a feedback form.
-            </p>
-            <img
+                <div class="together_text">
+                        <h2 class="together_title title">Grow Together</h2>
+                        <p class="together_subtitle">
+                 Generate meaningful discussions with your audience and build a
+                 strong, loyal community. Think of the insightful conversations
+                 you miss out on with a feedback form.
+                         </p>
+                </div>
+                <img
                 src="images/illustration-grow-together.svg"
                 alt="grow together"
-                class="together_illustration illustration"
-            />
+                class="illustration"
+                />
         </div>
+        </section>
+        <section>
         <div class="flowing">
             <img
                 src="images/illustration-flowing-conversation.svg"
                 alt="flowing"
-                class="flowing_illustration illustration"
+                class="illustration"
             />
-            <h2 class="flowing_title">Flowing Conversations</h2>
+            <div class="flowing_text">
+            <h2 class="flowing_title title">Flowing Conversations</h2>
             <p class="flowing_subtitle">
                 You wouldn't paginate a conversation in real life, so why do it
                 online? Our threads have just-in-time loading for a more natural
                 flow.
             </p>
         </div>
+        </div>
+        </section>
         <div class="users">
-            <h2 class="users_title">Your Users</h2>
+                <div class="users_text">
+            <h2 class="users_title title">Your Users</h2>
             <p class="users_subtitle">
                 It takes no time at all to integrate Huddle with your app's
                 authentication solution. This means, once signes in to your app,
                 your users can start chatting immediatly.
             </p>
+        </div>
             <img
                 src="images/illustration-your-users.svg"
                 alt="users pic"
-                class="users_illustration illustration"
+                class="illustration"
             />
         </div>
         <div class="build">
@@ -102,38 +112,45 @@
             <a href="#" class="btn build_btn">Get Started For Free</a>
         </div>
         <footer>
-            <div class="footer_left">
-                <img
-                    src="images/logo.svg"
-                    alt="huddle logo"
-                    class="footer_huddle"
-                />
+            <div class="footer_top">
+                    <div class="footer_left">
+               <img src="images/logo white.svg" alt="huddle white" class="huddle"> 
+                
                 <p class="footer_subtitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Delectus dignissimos aliquid temporibus eaque, in incidunt
-                    eius praesentium? Mollitia, obcaecati id est nostrum
-                    corporis commodi nisi asperiores, illum quaerat assumenda
-                    harum!
+                    Mauris nulla quam, hendrerit lacinia vestibulum a,ultrices quis sem.
                 </p>
-                <i class="fa-solid fa-phone footer_phone"></i>
-                <p class="footer_subtitle">Phone: +1-543-123-4567</p>
-                <i class="fa-solid fa-envelope footer_email"></i>
-                <p class="footer_subtitle">example@huddle.com</p>
+            <div class="footer_phone footer_phonemail">
+                <i class="fa-solid fa-phone footer_phone_logo"></i>
+                <p class="footer_subtitle logo_text">Phone: +1-543-123-4567</p>
             </div>
+                <div class="footer_email footer_phonemail">
+                <i class="fa-solid fa-envelope footer_email_logo"></i>
+                <p class="footer_subtitle logo_text">example@huddle.com</p>
+         </div>
+            
+        </div>
             <div class="footer_right">
+                    <div class="footer_right1">
                 <h2 class="footer_title">NEWSLETTER</h2>
                 <p class="footer_subtitle">
                     To receive tips on how to grow your community, sign up to
                     our weekly newsletter. We'll never send you spam or pass on
                     your email adress
                 </p>
+                </div>
+                <div class="footer_right2">
+                <form>
                 <input type="email" id="email" class="email" />
-                <input type="submit" value="Subscribe" class="btn footer_btn" />
+                <button type="submit" class="footer_btn">Subscribe</button>
+                </form>
+                </div>
             </div>
+        </div>
             <div class="footer_logo">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f foot_logo"></i>
+                <i class="fa-brands fa-instagram foot_logo"></i>
+                <i class="fa-brands fa-twitter foot_logo"></i>
             </div>
         </footer>
     </body>
